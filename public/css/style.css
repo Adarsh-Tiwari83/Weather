@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.container,.weathercont{
+    background-color: white;
+    height: 20rem;
+    width: 30rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 0.2rem solid black;
+    border-radius: 0.5rem;
+}
+h1{
+    font-size: xx-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 2rem auto;
+}
+input{
+    display: block;
+    width: 25rem;
+    height: 3rem;
+    border: 2px solid black;
+    border-radius: 50rem;
+    padding: 1rem;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+button{
+    margin: 1rem auto;
+    color: white;
+    background-color: black;
+    padding: 0.5rem;
+    width: 25rem;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+img{
+    /* height: 10rem;
+    width: 20rem; */
+}
+h2,h3{
+    font-weight: bolder;
+    text-align: center;
+    margin: 0.5rem auto;
+    font-size: 2rem;
+}
