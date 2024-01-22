@@ -15,7 +15,7 @@ app.set("view engine", "ejs");
 app.set("views", path.join(__dirname, "./views"));
 
 app.get("/", (req, res) => {
-  res.render("index");
+  res.status(200).render("index");
 });
 app.post("/", (req, res) => {
   let city = req.body.cityname;
@@ -43,7 +43,7 @@ app.post("/", (req, res) => {
               description: desc,
               img_src: img_src,
             };
-            res.render("weather", weather_info);
+            res.status(200).render("weather", weather_info);
       
     });
   });
